@@ -1,0 +1,286 @@
+body {
+  font-family: "Amatic SC", cursive;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Amatic SC", cursive;
+
+  color: #000;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 0% 7% 0 7%;
+}
+
+/* Sections */
+.colored-section {
+
+
+}
+.bgSection{
+  background:url('bgLogin.jpg')no-repeat center top ;
+  background-repeat: no-repeat;
+  background-position:  top;
+  background-size: cover;
+
+}
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #fff;
+  position: fixed;
+  Left: 0;
+  top: 0;
+  width: 100%;
+  padding: 0;
+  z-index: 1;
+}
+
+.navbar-nav {
+  margin-right: 50%;
+}
+
+.navbar-brand {
+
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-left: 5%
+
+}
+
+.navbar-brand{
+  color: #000;
+
+}
+
+.nav-item {
+
+  padding: 0 18px;
+  text-align: left;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+
+}
+
+/* Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+#title {
+  background-color: #63686e;
+  color: #000;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 5% 8% 5%;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #7e97a6;
+  margin-bottom: 5rem;
+}
+
+.icon:hover {
+  color: #000;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #7e97a6;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #7e97a6;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+/* Footer Section */
+#footer.container-fluid {
+  padding-top: 3%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Form Section */
+.big-form {
+  padding: 10% 5% 5% 5%;
+  text-align: right;
+}
+
+.form-row {
+  padding-bottom: 2%;
+}
+
+.form-control {
+  text-align: right;
+}
+
+.form-check-label {
+  padding: 0 10px;
+  margin-right: 10px;
+}
+
+#invalidCheck2 {
+  padding: 0 10%;
+}
+
+.btn-primary {
+  margin-top: 10px;
+}
+
+.Check-row {
+  padding-bottom: 1%;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 200px 15px 200px 15px;
+  margin: auto;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.btn-link {
+  padding-top: 2%;
+  color: #000;
+}
+
+.collapse {
+  background-color: #393e46;
+}
+
+.navbar-collapse {
+  background-color: #fff;
+}
+
+.card-header {
+  background-color: #fff;
+}
+
+.accordion {
+  padding: 5% 5% 2.5% 5%;
+}
+
+.btncontinue {
+  text-align: center;
+}
+
+
+
+.card {
+  color: #000;
+}
+
+.row-carousel {
+  padding-bottom: 20%;
+}
+#collapseOne{
+  color: #fff;
+}
+#collapseTwo{
+  color: #fff;
+}
+#collapseThree{
+  color: #fff;
+}
