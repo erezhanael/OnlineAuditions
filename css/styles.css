@@ -4,8 +4,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Amatic SC", cursive;
 
+  font-weight: bold;
   color: #000;
 }
 
@@ -14,6 +14,15 @@ p {
 }
 
 /* Headings */
+.choise{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+#textchoise{
+  color: #fff;
+  font-size: 5rem;
+  font-weight: bold;
+}
 .big-heading {
 
   font-size: 3.5rem;
@@ -40,8 +49,11 @@ p {
   background-repeat: no-repeat;
   background-position:  top;
   background-size: cover;
+  margin-top: 20px;
+
 
 }
+
 .white-section {
   background-color: #fff;
 }
@@ -84,6 +96,7 @@ p {
   font-size: 1.2rem;
 
 }
+
 
 /* Buttons */
 .download-button {
@@ -196,6 +209,7 @@ p {
 .big-form {
   padding: 10% 5% 5% 5%;
   text-align: right;
+  font-weight: bold;
 }
 
 .form-row {
@@ -283,4 +297,8 @@ p {
 }
 #collapseThree{
   color: #fff;
+}
+
+.A-from{
+  padding-top: 2%;
 }

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <title>form1</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu|Secular+One|Amatic+SC:400,700" rel="stylesheet" type="text/css">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+  <section class="colored-section">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-white" id="navBar">
+
+        <a class="navbar-brand text-dark" href="index.html">Online Audition</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#footer">צור קשר</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#pricing">אודישן</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#cta">פרופיל</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+      </div>
+  </section>
+
+
+    <!-- form -->
+  <section class="colored-section bgSection">
+    <form class ="big-form" >
+  <div>
+    <label><h1>שם פרויקט</h1></label>
+  </div>
+  <div>
+    <label><h2>סוג פרויקט</h2></label>
+  </div>
+
+  <div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <label><h3>תפקיד 1</h3></label>
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01">שם תפקיד</label>
+            <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="Mark" required>
+          </div>
+          <div class="col-md-2 mb-2">
+            <label for="validationDefaultUsername">מין</label>
+            <div class="form-group">
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>גבר</option>
+                <option>אישה</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-2 mb-2">
+            <label for="validationDefaultUsername">גיל</label>
+            <div class="form-group">
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>10-15</option>
+                <option>15-17</option>
+                <option>18-25</option>
+                <option>25-30</option>
+                <option>30-39</option>
+                <option>40+</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col">
+            <label for="exampleFormControlTextarea1">תיאור חיצוני</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+          </div>
+
+        </div>
+        <div class="form-row">
+          <div class="col-md-3">
+            <label for="validationDefaultUsername">גובה</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>אחר</option>
+              <option>1.50-1.60</option>
+              <option>1.60-1.70</option>
+              <option>1.70-1.80</option>
+              <option>1.80-1.90</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefaultUsername">מבנה גוף</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>רזה</option>
+              <option>ממוצע</option>
+              <option>חטוב</option>
+              <option>מלא</option>
+              <option>שמן</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefaultUsername">צבע שיער</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>הכול</option>
+              <option>בלונדיני</option>
+              <option>שטני</option>
+              <option>שחור</option>
+              <option>ג׳ינג׳י</option>
+              <option>חום</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefaultUsername">צבע עיניים</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>הכול</option>
+              <option>כחול</option>
+              <option>חום</option>
+              <option>ירוק</option>
+              <option>שחור</option>
+              <option>אפור</option>
+            </select>
+          </div>
+        </div>
+        <label for="validationDefault03">הכשרה</label>
+        <div class="form-row">
+          <div class="Check-row">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck2">
+             בוגר בית ספר למשחק
+            </label>
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck2">
+            בוגר קורס משחק מול מצלמה
+            </label>
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck2">
+              ללא הכשרה
+            </label>
+          </div>
+        </div>
+        <label for="validationDefault03">כישורים</label>
+        <div class="form-row">
+          <div class="Check-row">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck2">
+             שירה
+            </label>
+
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck2">
+             ריקוד
+            </label>
+
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck2">
+              משחק
+            </label>
+
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck2">
+              אקרובטיקה
+            </label>
+
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck2">
+              נגינה
+            </label>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <label><h3>תפקיד 2</h3></label>
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01">שם תפקיד</label>
+            <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="Mark" required>
+          </div>
+          <div class="col-md-2 mb-2">
+            <label for="validationDefaultUsername">מין</label>
+            <div class="form-group">
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>גבר</option>
+                <option>אישה</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-2 mb-2">
+            <label for="validationDefaultUsername">גיל</label>
+            <div class="form-group">
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>10-15</option>
+                <option>15-17</option>
+                <option>18-25</option>
+                <option>25-30</option>
+                <option>30-39</option>
+                <option>40+</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col">
+            <label for="exampleFormControlTextarea1">תיאור חיצוני</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+          </div>
+
+        </div>
+        <div class="form-row">
+          <div class="col-md-3">
+            <label for="validationDefaultUsername">גובה</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>אחר</option>
+              <option>1.50-1.60</option>
+              <option>1.60-1.70</option>
+              <option>1.70-1.80</option>
+              <option>1.80-1.90</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefaultUsername">מבנה גוף</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>רזה</option>
+              <option>ממוצע</option>
+              <option>חטוב</option>
+              <option>מלא</option>
+              <option>שמן</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefaultUsername">צבע שיער</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>הכול</option>
+              <option>בלונדיני</option>
+              <option>שטני</option>
+              <option>שחור</option>
+              <option>ג׳ינג׳י</option>
+              <option>חום</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefaultUsername">צבע עיניים</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>הכול</option>
+              <option>כחול</option>
+              <option>חום</option>
+              <option>ירוק</option>
+              <option>שחור</option>
+              <option>אפור</option>
+            </select>
+          </div>
+        </div>
+        <label for="validationDefault03">הכשרה</label>
+        <div class="form-row">
+          <div class="Check-row">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck2">
+             בוגר בית ספר למשחק
+            </label>
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck2">
+            בוגר קורס משחק מול מצלמה
+            </label>
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck2">
+              ללא הכשרה
+            </label>
+          </div>
+        </div>
+        <label for="validationDefault03">כישורים</label>
+        <div class="form-row">
+          <div class="Check-row">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck2">
+             שירה
+            </label>
+
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck2">
+             ריקוד
+            </label>
+
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck2">
+              משחק
+            </label>
+
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck2">
+              אקרובטיקה
+            </label>
+
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck2">
+              נגינה
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <label><h3>תפקיד 3</h3></label>
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01">שם תפקיד</label>
+            <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="Mark" required>
+          </div>
+          <div class="col-md-2 mb-2">
+            <label for="validationDefaultUsername">מין</label>
+            <div class="form-group">
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>גבר</option>
+                <option>אישה</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-2 mb-2">
+            <label for="validationDefaultUsername">גיל</label>
+            <div class="form-group">
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>10-15</option>
+                <option>15-17</option>
+                <option>18-25</option>
+                <option>25-30</option>
+                <option>30-39</option>
+                <option>40+</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col">
+            <label for="exampleFormControlTextarea1">תיאור חיצוני</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+          </div>
+
+        </div>
+        <div class="form-row">
+          <div class="col-md-3">
+            <label for="validationDefaultUsername">גובה</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>אחר</option>
+              <option>1.50-1.60</option>
+              <option>1.60-1.70</option>
+              <option>1.70-1.80</option>
+              <option>1.80-1.90</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefaultUsername">מבנה גוף</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>רזה</option>
+              <option>ממוצע</option>
+              <option>חטוב</option>
+              <option>מלא</option>
+              <option>שמן</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefaultUsername">צבע שיער</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>הכול</option>
+              <option>בלונדיני</option>
+              <option>שטני</option>
+              <option>שחור</option>
+              <option>ג׳ינג׳י</option>
+              <option>חום</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefaultUsername">צבע עיניים</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>הכול</option>
+              <option>כחול</option>
+              <option>חום</option>
+              <option>ירוק</option>
+              <option>שחור</option>
+              <option>אפור</option>
+            </select>
+          </div>
+        </div>
+        <label for="validationDefault03">הכשרה</label>
+        <div class="form-row">
+          <div class="Check-row">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck2">
+             בוגר בית ספר למשחק
+            </label>
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck2">
+            בוגר קורס משחק מול מצלמה
+            </label>
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck2">
+              ללא הכשרה
+            </label>
+          </div>
+        </div>
+        <label for="validationDefault03">כישורים</label>
+        <div class="form-row">
+          <div class="Check-row">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck2">
+             שירה
+            </label>
+
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck2">
+             ריקוד
+            </label>
+
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck2">
+              משחק
+            </label>
+
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck2">
+              אקרובטיקה
+            </label>
+
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck2">
+              נגינה
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row justify-content-center">
+  <a class="btncontinue btn btn-primary" href="results.html" role="button">שלח טוםס</a>
+</div>
+</form>
+</section>
+<footer class="white-section" >
+  <div class="container-fluid" id="footer">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2019 Casting</p>
+    </div>
+  </footer>
+  </body>
+</html>
