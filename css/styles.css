@@ -209,6 +209,19 @@ p {
 .nav-link{
   font-size: 3.5rem;
 }
+.navbar-brand {
+
+  font-size: 4.5rem;
+
+}
+.bgSection{
+
+  margin-top: 50px;
+}
+.navbar-toggler-icon {
+    width: 80px !important;
+    height: 80px;
+}
 }
 /* Form Section */
 .big-form {
